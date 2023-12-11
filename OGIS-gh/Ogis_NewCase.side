@@ -1,0 +1,371 @@
+{
+  "id": "9ce71e6a-f429-41bb-b688-d8e2d51129c7",
+  "version": "2.0",
+  "name": "Ogis_NewCase",
+  "url": "https://nationalarchives--ogiscat.sandbox.lightning.force.com",
+  "tests": [{
+    "id": "eea45c72-4704-4b09-a78e-e077da7f9b58",
+    "name": "Untitled",
+    "commands": [{
+      "id": "0a66143e-4023-49b4-941b-095591174630",
+      "comment": "",
+      "command": "open",
+      "target": "/lightning/n/OGIS_Home_Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a396109c-7e01-4475-b355-7844557909be",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c6bda26-2d13-402c-b431-5e397d747cb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-button:nth-child(2) div",
+      "targets": [
+        ["css=.slds-button:nth-child(2) div", "css:finder"],
+        ["xpath=//div[@id='brandBand_2']/div/div/div/div/app_flexipage-lwc-app-flexipage/app_flexipage-lwc-app-flexipage-decorator/slot/app_flexipage-lwc-app-flexipage-internal/forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-o-g-i-s_-home_-page/forcegenerated-flexipage_ogis_home_page__js/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2[2]/slot/flexipage-aura-wrapper/div/article/div/div/div/div/div[2]/ul/li[2]/a/div", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3eb831a9-305d-4836-9d62-36081a1277e0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,405.5555725097656)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef63f434-e6a3-4bc0-b2ec-450d4156d6b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-is-selected .slds-truncate",
+      "targets": [
+        ["css=.slds-is-selected .slds-truncate", "css:finder"],
+        ["xpath=//ul[@id='source-list-130']/li/div/span/span", "xpath:idRelative"],
+        ["xpath=//li/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "caa4e4f3-f874-44e3-9f37-de9eaecfd9b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-form-element_stacked lightning-button-icon:nth-child(1) lightning-primitive-icon",
+      "targets": [
+        ["css=.slds-form-element_stacked lightning-button-icon:nth-child(1) lightning-primitive-icon", "css:finder"],
+        ["xpath=//div[@id='sectionContent-124']/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-dual-listbox/div/div[2]/div/div[4]/lightning-button-icon/button/lightning-primitive-icon", "xpath:idRelative"],
+        ["xpath=//div[4]/lightning-button-icon/button/lightning-primitive-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77022f21-f29a-48bf-866f-314fbfe0d973",
+      "comment": "",
+      "command": "click",
+      "target": "id=combobox-button-149",
+      "targets": [
+        ["id=combobox-button-149", "id"],
+        ["css=#combobox-button-149", "css:finder"],
+        ["xpath=//button[@id='combobox-button-149']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-124']/div/slot/records-record-layout-row[2]/slot/records-record-layout-item/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/lightning-base-combobox/div/div/button", "xpath:idRelative"],
+        ["xpath=//records-record-layout-row[2]/slot/records-record-layout-item/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/lightning-base-combobox/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'--None--')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eff9349-d022-4379-8eb6-be4b0b18fecf",
+      "comment": "",
+      "command": "click",
+      "target": "css=#combobox-button-149-1-149 > .slds-media__body",
+      "targets": [
+        ["css=#combobox-button-149-1-149 > .slds-media__body", "css:finder"],
+        ["xpath=//lightning-base-combobox-item[@id='combobox-button-149-1-149']/span[2]", "xpath:idRelative"],
+        ["xpath=//lightning-base-combobox-item[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecd96141-765b-4271-a578-4a0d19a2e74e",
+      "comment": "",
+      "command": "click",
+      "target": "id=combobox-input-323",
+      "targets": [
+        ["id=combobox-input-323", "id"],
+        ["css=#combobox-input-323", "css:finder"],
+        ["xpath=//input[@id='combobox-input-323']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-124']/div/slot/records-record-layout-row[4]/slot/records-record-layout-item/div/span/slot/records-record-layout-lookup/lightning-lookup/lightning-lookup-desktop/lightning-grouped-combobox/div/div/lightning-base-combobox/div/div/input", "xpath:idRelative"],
+        ["xpath=//lightning-base-combobox/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b920e69-3b90-4494-bd70-27a23882a811",
+      "comment": "",
+      "command": "type",
+      "target": "id=combobox-input-323",
+      "targets": [
+        ["id=combobox-input-323", "id"],
+        ["css=#combobox-input-323", "css:finder"],
+        ["xpath=//input[@id='combobox-input-323']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-124']/div/slot/records-record-layout-row[4]/slot/records-record-layout-item/div/span/slot/records-record-layout-lookup/lightning-lookup/lightning-lookup-desktop/lightning-grouped-combobox/div/div/lightning-base-combobox/div/div/input", "xpath:idRelative"],
+        ["xpath=//lightning-base-combobox/div/div/input", "xpath:position"]
+      ],
+      "value": "hhs"
+    }, {
+      "id": "2185d515-25a6-4a40-8735-69185d99706d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#combobox-input-323-1-323 .slds-truncate",
+      "targets": [
+        ["css=#combobox-input-323-1-323 .slds-truncate", "css:finder"],
+        ["xpath=//lightning-base-combobox-item[@id='combobox-input-323-1-323']/span[2]/span/lightning-base-combobox-formatted-text", "xpath:idRelative"],
+        ["xpath=//lightning-base-combobox-formatted-text", "xpath:position"],
+        ["xpath=//lightning-base-combobox-formatted-text[contains(.,'HHS: Administration for Children and Families')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcd8a929-c444-4793-b866-096f0fdf0222",
+      "comment": "",
+      "command": "click",
+      "target": "id=combobox-input-335",
+      "targets": [
+        ["id=combobox-input-335", "id"],
+        ["css=#combobox-input-335", "css:finder"],
+        ["xpath=//input[@id='combobox-input-335']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-189']/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-layout-lookup/lightning-lookup/lightning-lookup-desktop/lightning-grouped-combobox/div/div/lightning-base-combobox/div/div/input", "xpath:idRelative"],
+        ["xpath=//records-record-layout-section[4]/div/div/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-layout-lookup/lightning-lookup/lightning-lookup-desktop/lightning-grouped-combobox/div/div/lightning-base-combobox/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9b88f3c-d4f0-4cbb-b563-8b53e0475343",
+      "comment": "",
+      "command": "type",
+      "target": "id=combobox-input-335",
+      "targets": [
+        ["id=combobox-input-335", "id"],
+        ["css=#combobox-input-335", "css:finder"],
+        ["xpath=//input[@id='combobox-input-335']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-189']/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-layout-lookup/lightning-lookup/lightning-lookup-desktop/lightning-grouped-combobox/div/div/lightning-base-combobox/div/div/input", "xpath:idRelative"],
+        ["xpath=//records-record-layout-section[4]/div/div/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-layout-lookup/lightning-lookup/lightning-lookup-desktop/lightning-grouped-combobox/div/div/lightning-base-combobox/div/div/input", "xpath:position"]
+      ],
+      "value": "sam"
+    }, {
+      "id": "98f9b360-5bb8-4565-ae83-4c50e4480e35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-listbox__option-meta",
+      "targets": [
+        ["css=.slds-listbox__option-meta", "css:finder"],
+        ["xpath=//lightning-base-combobox-item[@id='combobox-input-335-1-335']/span[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b6e309c-1f33-47e3-b325-eab9672ecbc4",
+      "comment": "",
+      "command": "click",
+      "target": "id=combobox-input-335",
+      "targets": [
+        ["id=combobox-input-335", "id"],
+        ["css=#combobox-input-335", "css:finder"],
+        ["xpath=//input[@id='combobox-input-335']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-189']/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-layout-lookup/lightning-lookup/lightning-lookup-desktop/lightning-grouped-combobox/div/div/lightning-base-combobox/div/div/input", "xpath:idRelative"],
+        ["xpath=//records-record-layout-section[4]/div/div/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-layout-lookup/lightning-lookup/lightning-lookup-desktop/lightning-grouped-combobox/div/div/lightning-base-combobox/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d776cd65-ef4e-4cba-ba59-830d3479cb49",
+      "comment": "",
+      "command": "type",
+      "target": "id=combobox-input-335",
+      "targets": [
+        ["id=combobox-input-335", "id"],
+        ["css=#combobox-input-335", "css:finder"],
+        ["xpath=//input[@id='combobox-input-335']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-189']/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-layout-lookup/lightning-lookup/lightning-lookup-desktop/lightning-grouped-combobox/div/div/lightning-base-combobox/div/div/input", "xpath:idRelative"],
+        ["xpath=//records-record-layout-section[4]/div/div/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-layout-lookup/lightning-lookup/lightning-lookup-desktop/lightning-grouped-combobox/div/div/lightning-base-combobox/div/div/input", "xpath:position"]
+      ],
+      "value": "k"
+    }, {
+      "id": "b3fe67bb-50c2-479a-beae-229462b99e25",
+      "comment": "",
+      "command": "click",
+      "target": "css=#combobox-input-335-0-335 .slds-listbox__option-text > .slds-truncate",
+      "targets": [
+        ["css=#combobox-input-335-0-335 .slds-listbox__option-text > .slds-truncate", "css:finder"],
+        ["xpath=//lightning-base-combobox-item[@id='combobox-input-335-0-335']/span[2]/span/lightning-base-combobox-formatted-text", "xpath:idRelative"],
+        ["xpath=//records-record-layout-section[4]/div/div/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-layout-lookup/lightning-lookup/lightning-lookup-desktop/lightning-grouped-combobox/div/div/lightning-base-combobox/div/div[2]/ul/li[2]/lightning-base-combobox-item/span[2]/span/lightning-base-combobox-formatted-text", "xpath:position"],
+        ["xpath=//lightning-base-combobox-formatted-text[contains(.,'Ken Smith')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4305229-01d5-49a0-95b8-f7253bc81b7b",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-200",
+      "targets": [
+        ["id=input-200", "id"],
+        ["name=Date_Assigned__c", "name"],
+        ["css=#input-200", "css:finder"],
+        ["xpath=//input[@id='input-200']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-196']/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/lightning-input/lightning-datepicker/div/div/input", "xpath:idRelative"],
+        ["xpath=//lightning-datepicker/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b90c6a4d-8589-4fb8-ba62-424bbb1ab254",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-is-today > .slds-day",
+      "targets": [
+        ["css=.slds-is-today > .slds-day", "css:finder"],
+        ["xpath=//div[@id='sectionContent-196']/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/lightning-input/lightning-datepicker/div/div/lightning-calendar/div/lightning-focus-trap/slot/table/tbody/tr[2]/td[6]/span", "xpath:idRelative"],
+        ["xpath=//slot/table/tbody/tr[2]/td[6]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa886af7-74b8-461d-86d4-36ec621c6160",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-207",
+      "targets": [
+        ["id=input-207", "id"],
+        ["name=Date_Received__c", "name"],
+        ["css=#input-207", "css:finder"],
+        ["xpath=//input[@id='input-207']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-196']/div/slot/records-record-layout-row[2]/slot/records-record-layout-item/div/span/slot/lightning-input/lightning-datepicker/div/div/input", "xpath:idRelative"],
+        ["xpath=//records-record-layout-row[2]/slot/records-record-layout-item/div/span/slot/lightning-input/lightning-datepicker/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "110b577e-9e4c-4c15-a060-9ac4a720ecae",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(5) > .slds-day",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(5) > .slds-day", "css:finder"],
+        ["xpath=//div[@id='sectionContent-196']/div/slot/records-record-layout-row[2]/slot/records-record-layout-item/div/span/slot/lightning-input/lightning-datepicker/div/div/lightning-calendar/div/lightning-focus-trap/slot/table/tbody/tr[2]/td[5]/span", "xpath:idRelative"],
+        ["xpath=//slot/table/tbody/tr[2]/td[5]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8eaa55fc-20d9-4368-b91b-7710e8b67367",
+      "comment": "",
+      "command": "click",
+      "target": "id=combobox-button-225",
+      "targets": [
+        ["id=combobox-button-225", "id"],
+        ["css=#combobox-button-225", "css:finder"],
+        ["xpath=//button[@id='combobox-button-225']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-218']/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/lightning-base-combobox/div/div/button", "xpath:idRelative"],
+        ["xpath=//records-record-layout-section[6]/div/div/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/lightning-base-combobox/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c073b4a-1831-43e9-aea5-d400247ebe9a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=combobox-button-225",
+      "targets": [
+        ["id=combobox-button-225", "id"],
+        ["css=#combobox-button-225", "css:finder"],
+        ["xpath=//button[@id='combobox-button-225']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-218']/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/lightning-base-combobox/div/div/button", "xpath:idRelative"],
+        ["xpath=//records-record-layout-section[6]/div/div/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/lightning-base-combobox/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ca853ac-b41e-4f3a-a8eb-ccae372cb6f4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=combobox-button-225",
+      "targets": [
+        ["id=combobox-button-225", "id"],
+        ["css=#combobox-button-225", "css:finder"],
+        ["xpath=//button[@id='combobox-button-225']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-218']/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/lightning-base-combobox/div/div/button", "xpath:idRelative"],
+        ["xpath=//records-record-layout-section[6]/div/div/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/lightning-base-combobox/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e10eea5a-6404-47f1-85a9-9758a27b0161",
+      "comment": "",
+      "command": "click",
+      "target": "css=#combobox-button-225-2-225 > .slds-media__body",
+      "targets": [
+        ["css=#combobox-button-225-2-225 > .slds-media__body", "css:finder"],
+        ["xpath=//lightning-base-combobox-item[@id='combobox-button-225-2-225']/span[2]", "xpath:idRelative"],
+        ["xpath=//records-record-layout-section[6]/div/div/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/lightning-base-combobox/div/div[2]/lightning-base-combobox-item[3]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2f2472b-e636-48de-8457-393bd26b32fb",
+      "comment": "",
+      "command": "click",
+      "target": "id=combobox-button-299",
+      "targets": [
+        ["id=combobox-button-299", "id"],
+        ["css=#combobox-button-299", "css:finder"],
+        ["xpath=//button[@id='combobox-button-299']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-276']/div/slot/records-record-layout-row[5]/slot/records-record-layout-item/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/lightning-base-combobox/div/div/button", "xpath:idRelative"],
+        ["xpath=//records-record-layout-row[5]/slot/records-record-layout-item/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/lightning-base-combobox/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Open')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41cdee2b-81f6-4c4b-990d-bd1ad41ed099",
+      "comment": "",
+      "command": "click",
+      "target": "css=#combobox-button-299-2-299 > .slds-media__body",
+      "targets": [
+        ["css=#combobox-button-299-2-299 > .slds-media__body", "css:finder"],
+        ["xpath=//lightning-base-combobox-item[@id='combobox-button-299-2-299']/span[2]", "xpath:idRelative"],
+        ["xpath=//records-record-layout-row[5]/slot/records-record-layout-item/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/lightning-base-combobox/div/div[2]/lightning-base-combobox-item[3]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdbeabcf-9e35-4847-91f2-92c1f8d3d0f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-288",
+      "targets": [
+        ["id=input-288", "id"],
+        ["css=#input-288", "css:finder"],
+        ["xpath=//textarea[@id='input-288']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-276']/div/slot/records-record-layout-row[3]/slot/records-record-layout-item/div/span/slot/records-record-layout-text-area/lightning-textarea/div/textarea", "xpath:idRelative"],
+        ["xpath=//records-record-layout-row[3]/slot/records-record-layout-item/div/span/slot/records-record-layout-text-area/lightning-textarea/div/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3181f38-3c4c-4a7f-82e7-760c11c1695e",
+      "comment": "",
+      "command": "click",
+      "target": "name=SaveEdit",
+      "targets": [
+        ["name=SaveEdit", "name"],
+        ["css=.slds-button_brand", "css:finder"],
+        ["xpath=//button[@name='SaveEdit']", "xpath:attributes"],
+        ["xpath=//div[@id='content_1451:0']/div/div/div/records-modal-lwc-detail-panel-wrapper/records-record-layout-event-broker/slot/records-lwc-detail-panel/records-base-record-form/div/div/div/records-form-footer/div/div[2]/div/runtime_platform_actions-actions-ribbon/ul/li[3]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-lwc-headless/slot/slot/lightning-button/button", "xpath:idRelative"],
+        ["xpath=//li[3]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-lwc-headless/slot/slot/lightning-button/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cd20787-5a7a-4221-b652-be9525365b0e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,405.5555725097656)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e2e0be4a-bb48-4ca3-99b4-15d7f4ddf347",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eea45c72-4704-4b09-a78e-e077da7f9b58"]
+  }],
+  "urls": ["https://nationalarchives--ogiscat.sandbox.lightning.force.com/"],
+  "plugins": []
+}
